@@ -129,6 +129,7 @@ while True:
             if digits[i] != 0:
                 pyautogui.moveTo(coordinates)
                 pyautogui.click()
+
             if i == 5 and digits[i] != 1 or i == 7 and digits[i] != 1:
                 pyautogui.moveTo(coordinates)
                 pyautogui.click()
