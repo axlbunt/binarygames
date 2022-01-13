@@ -7,7 +7,8 @@ from pyautogui import *
 from PIL import Image, ImageGrab
 from time import sleep
 
-tess.pytesseract.tesseract_cmd = r'C:\Users\Home_pc\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
+#the location of your tesseract.exe file
+tess.pytesseract.tesseract_cmd = r'Tesseract-OCR\tesseract.exe'
 
 pyautogui.PAUSE = 0.1
 pyautogui.FAILSAFE = True
